@@ -37,6 +37,7 @@ def dezip(filename, tempFolderName='tempfolder'):
     return 0
 
 def comp_img(filename):    
+     # we could do a better job here, right?
     return Image.open(filename)
 
 def walk_img(startdir, minSize=10240):    
