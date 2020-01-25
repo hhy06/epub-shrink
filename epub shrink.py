@@ -5,7 +5,7 @@
 
 
 # ver. A2:
-#   leave small jpg files;
+#   leave small jpg files untouched;
 #   establish inbox/outbox
 import os,string,   sys  
 import urllib,re, socket
